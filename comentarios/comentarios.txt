@@ -1,0 +1,16 @@
+
+
+Extras/Plus
+
+1. Dar alguna solución sobre qué pasa con una llamada cuando no
+hay ningún empleado libre.
+
+se controla desde la llamada que se cuenten con al menos un empleado libre, de lo contrario queda en lista de espera a ser atendido, mientras un empleado se notifica como libre
+
+
+
+2. Dar alguna solución sobre qué pasa con una llamada cuando entran más de 10 llamadas concurrentes.
+
+   se maneja con un pool de hilos en este caso el maximo son 10 utilizando la clase ExecutorService que dejara en lista de espera los demas hilos hasta que se cuente con una conexion libre
+
+
